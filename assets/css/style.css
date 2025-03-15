@@ -1,0 +1,118 @@
+/* Reseta margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos para o jogo */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/imagem\ fundo.jpg);
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Contêiner principal */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Conteúdo do jogo */
+.container__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Informações do jogo */
+.container__informacoes {
+    margin-bottom: 20px;
+}
+
+/* Texto do título */
+.container__texto h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Texto azul do título */
+.container__texto-azul {
+    color: #d14189;
+}
+
+/* Parágrafo de instrução */
+.texto__paragrafo {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Input de número */
+.container__input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.entrada-numero {
+    width: 50px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+/* Botões */
+.container__botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container__botao {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c5187d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container__botao:hover {
+    background-color: #0056b3;
+}
+
+.container__botao:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Mensagens de sucesso ou erro */
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.texto-destaque {
+    color: #007bff;
+}
